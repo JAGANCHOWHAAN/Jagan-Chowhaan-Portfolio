@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio  Website</title>
+    <link rel="stylesheet" href="./css/font-awesome.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!--BG Circles Start-->
+    <div class="bg-circles">
+        <div class="circle-1"></div>
+        <div class="circle-2"></div>
+        <div class="circle-3"></div>
+        <div class="circle-4"></div>
+    </div>
+    <!--BG Circles End-->
+
+    <!--Overlay Start-->
+    <div class="overlay"> 
+    </div>
+    <!--Overlay End-->
+   <!--Main Start-->
+   <div class="main">
+    <!--Header Start-->
+    <header class="header">
+        <div class="container">
+            <div class="row flex-end">
+                <button type="button" class="nav-toggler">
+                    <span></span>
+                </button>
+                <nav class="nav">
+                  <div class="nav-inner">
+                    <ul>
+                        <li><a href="#Home" class="nav-item link-item">Home</a></li>
+                        <li><a href="#About" class="nav-item link-item">About</a></li>
+                        <li><a href="#Portfolio" class="nav-item link-item">Portfolio</a></li>
+                        <li><a href="#Contact" class="nav-item link-item">Contact</a></li>
+                    </ul>
+                </div>
+              </nav>
+            </div>
+        </div>
+    </header>
+    <!--Header End-->
+    <!--Home Section Start-->
+    <section class="home-section align-items-center active" id="Home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="home-text">
+                    <p>Hello.👋! I'm</p>
+                    <h1>Jagan Chowhaan</h1>
+                    <h2>Software Engineering Student</h2>
+                    <a href="#About" class="btn link-item">More About Me</a>
+                    <a href="#Portfolio" class="btn link-item">Portfolio</a>
+                    </div>
+                    <div class="home-img">
+                        <div class="img-box">
+                            <img src="./images/profile-img.png" alt="Profile Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!--Home section end-->
+    <!--About section Start-->
+    <section class="about-section sec-padding active" id="About">
+            <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>About Me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="about-img">
+                    <div class="img-box">
+                        <img src="./images/Jagan Chowhaan.png" alt="about image">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>I'm Jagan Chowhaan, a student at snist with a major in Information Technology.
+                        I am passionate about technology, computers and the way technology changing this world makes me curious and dedicated .
+                        I used to do coding, solving problems on the best platforms like leetcode and hackerrank. I also talk about coding, web3 and community building.
+                        I'm very keen to work in researching, developing technologies, designing software applications and building projects that solves a real problem.
+                         My other interests are writing technical content, content design, teaching, reading books and listening to Ted talks.</p>
+                         <h3>Skills</h3>
+                         <div class="skills">
+                             <div class="skill-item">Python</div>
+                             <div class="skill-item">Html</div>
+                             <div class="skill-item">CSS</div>
+                             <div class="skill-item">AWS Cloud</div>
+                             <div class="skill-item">Data Structures</div>
+                             <div class="skill-item">Problem Solving</div>
+                             <div class="skill-item">C Language</div>
+                         </div>
+                         <div class="about-tabs">
+                             <button type="button" class="tab-item" data-target="#education">Education</button>
+                             <!--<button type="button" class="tab-item" data-target="#experience">Experience</button>-->
+                         </div>
+                         <!--Education Start-->
+                         <div class="tab-content active" id="education">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <span class="date">2019-2023</span>
+                                    <h4>Bachelor of Technology-<span>SNIST</span></h4>
+                                    <p>I'm pursuing btech in Information Technology specilization at Sreenidhi Institute of Science and Technology, Yamnampet, Ghatkesar, Hyderabad</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2017-2019</span>
+                                    <h4>Intermediate-<span>Sri Chaithanya College</span></h4>
+                                    <p>I did Intermediate(2 years) in MPC group in Sri Chaithanya Institutions, Hyderabad</p>
+                                </div>
+                            </div>
+                         </div>
+                         <!--Education End-->
+                         <!--Experience Start-->
+                         <div class="about-tabs">
+                         <button type="button" class="tab-item" data-target="#experience">Experience</button>
+                         <div class="tab-content active" id="experience">
+                             <div class="timeline">
+                                 <div class="timeline-item">
+                                     <span class="date">2021-2022</span>
+                                     <h4>Web Designer Trainee</h4>
+                                     <p>This is a 4 week training program conducted by Internship Studio. In this training program I learnt skills like Html, CSS and Js.
+                                        Later than I worked on a project within a team that gave me hands on knowledge in website designing </p>
+                                 </div>
+                                 <div class="timeline-item">
+                                    <span class="date">2021-2022</span>
+                                    <h4>AWS Cloud</h4>
+                                    <p>This is a virtual internship program announced by Eduskills and AICTE sponsored by AWS academy.
+                                         In this 3 months internship program, I learnt about the the services of AWS, the tools and technologies utilised by AWS customers. I got an opportunity to gain experience on cloud services, hands on training, and learning as you go.
+                                         Lastly, I did a capstone project also and learned lot many skills regarding cloud technology</p>
+                                </div>
+                             </div>
+                         </div>
+                         </div>
+                         <!--Experience End-->
+                         <a href="./images/cv.pdf" target="_blank" class="btn">Download CV</a>
+                         <a href="#Contact"  class="btn link-item">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--About Section End-->
+    <!--Portfolio Section Start-->
+    <section class="portfolio-section sec-padding active" id="Portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>recent work</h2>
+                </div>
+            </div>
+            <div class="row">
+                <!--Item Start-->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="./images/project1.JPG" alt="portfolio item thumb">
+                    </div>
+                    <h3 class="portfolio-item-title">Social Handle Launcher</h3>
+                    <!--<button type="button" class="btn view-project-btn">View Project</button>-->
+                    <div class="description">
+                        <p>This is a small project, where one can make use of their social media profiles all at one place. 
+                            Furthermore we can launch it as a browser extension.</p>
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                            <li>Created-<span>28 May 2022</span></li>
+                            <li>Technologies used-<span>Html, Css, Javascript</span></li>
+                            <li>View Online-<span><a href="https://github.com/JAGANCHOWHAAN/Social-Media-Chrome-Extension" target="_blank">Social Handles Chrome Extension Launcher</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--Item End-->
+            </div>
+        </div>
+    </section>
+    <!--Portfolio Section Ends-->
+    <!--Contact Section Starts-->
+    <section class="contact-section sec-padding active" id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Contact Me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="contact-form">
+                    <form action="https://formsubmit.co/roshanrosh0994@gmail.com" method="POST">
+                        <div class="row">
+                            <input type="hidden" name="_template" value="table">
+                            <div class="input-group">
+                                <input type="text" placeholder="Name" name="name" class="input-control" id="Name" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" placeholder="Email" name="email" class="input-control" id="email" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" placeholder="Subject" name="subject" class="input-control" id="Subject" required>
+                            </div>
+                            <div class="input-group">
+                                <textarea placeholder="Message" name="message" class="input-control" id="Message" rows="10" required></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <button type="submit" class="btn">send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <h3>Email</h3>
+                        <p>jaganchowhaan@gmail.com</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <h3>Phone</h3>
+                        <p>+91 7989570994</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <h3>Follow Me</h3>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/jagan-chowhaan-54952519b" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/jagan_chowhaan/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://twitter.com/Chowhaan_Dev?t=iYH2ECyCWFc9lna7EioNJQ&s=09" target="_blank"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>                           
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Contact Section Ends-->
+    
+   </div>
+   <!--Main End-->
+   <!--Portfolio Item Details Popup Start
+   <div class="portfolio-popup">
+        <div class="pp-inner">
+            <div class="pp-content">
+                <div class="pp-header">
+                    <div class="pp-thumbnail">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+   Portfolio Item Details Popup Ends-->
+   <script src="./script.js">
+   </script>
+   <script>
+    window.onbeforeunload = () => {
+  for(const form of document.getElementsByTagName('form')) {
+    form.reset();
+  }
+}
+   </script>
+</body>
+</html>
